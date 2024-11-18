@@ -1,18 +1,25 @@
 import logo from '../../assets/logo.png'
 import search from '../../assets/search.png'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import Inicio from '../../Pages/Inicio/Inicio'
+import Doados from '../../Pages/Doados/Doados'
+import QueroDoar from '../../Pages/QueroDoar/QueroDoar'
+import S from "./header.module.scss"
+
 
 export default function header() {
     return(
+        <BrowserRouter>
         <header>
-            <section>
+            <section className={S.boxLogo}>
                 <img src={logo} alt="imagem de um livro" />
                 <h1>Livros Vai na Web</h1>
             </section>
             <nav>
                 <ul>
-                    <li>Inicio</li>
-                    <li>Livros doados</li>
-                    <li>Quero doar</li>
+                    <li> <Link to="/">Inicio</Link> </li>
+                    <li> <Link to="/doados">Livros doados</Link> </li>
+                    <li> <Link to="/queroDoar">Quero doar</Link> </li>
                 </ul>
             </nav>
             <div>
@@ -20,5 +27,11 @@ export default function header() {
                 <img src={search} alt="" />
             </div>
         </header>
+        <Routes>
+            <Route path='/' element={<Inicio/>}/>
+            <Route path='/doados' element={<Doados/>}/>
+            <Route path='/queroDoar' element={<QueroDoar/>}/>
+        </Routes>
+        </BrowserRouter>
     )
 }
