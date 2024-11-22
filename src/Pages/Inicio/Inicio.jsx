@@ -1,10 +1,12 @@
-
+import S from "./inicio.module.scss"
 
 
 export default function Inicio() {
     return(
         <section>
-            <h2>Inicio</h2>
+            <section className={S.post}>
+                <h2>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
+            </section>
         </section>
     )
 }

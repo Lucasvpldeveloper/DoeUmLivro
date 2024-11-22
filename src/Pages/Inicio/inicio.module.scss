@@ -1,0 +1,13 @@
+.post{
+    background-image: url('../../assets/banner.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    h2 {
+        color: white;
+        width: 20vw;
+        margin-left: 11vw;
+    }
+}
