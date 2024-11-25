@@ -11,3 +11,39 @@
         margin-left: 11vw;
     }
 }
+
+.devoDoar {
+    height: 85vh;
+    div{
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        h2 {
+            font-size: 30px;
+            color: #005695;
+            margin-left: 60px;
+        }
+    }
+}
+
+.boxCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+    article{
+        width: 20%;
+        height: 80%;
+        background-color: #0157944D;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        p{
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+
+}

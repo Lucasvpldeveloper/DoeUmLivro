@@ -1,0 +1,33 @@
+
+
+
+.footer {
+    height: 25vh;
+}
+
+.footer2 {
+    background-color: #005695;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    h3 {
+        margin: 60px;
+    }
+    nav {
+        margin: 60px;
+    }
+    a {
+        margin: 5px;
+    }
+}
+
+.footer3 {
+    background-color: #232020;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
