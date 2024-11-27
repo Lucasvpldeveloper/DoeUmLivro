@@ -4,7 +4,7 @@
 export default function Doados() {
     return(
         <section>
-            <h2>Livros Doados</h2>
+            <h1>Por favor, preencha o formulário com suas informações e as informações do Livro</h1>
         </section>
     )
 }
