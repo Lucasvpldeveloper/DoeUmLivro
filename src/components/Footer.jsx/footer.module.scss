@@ -1,5 +1,5 @@
 footer {
-    height: 20vh;
+    height: 14.5vh;
 }
 
 .boxSocial {
@@ -21,10 +21,29 @@ footer {
 
 .boxEnd {
     background-color: #232020;
-    height: 3vw;
+    height: 4vw;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
 }
 
+@media(max-width: 1000px) {
+    .boxSocial {
+        nav {
+            border: 2px solid red;
+            width: 220px;
+        }
+    }
+}
+@media(max-width: 479px) {
+    .boxSocial {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .boxEnd {
+        p {
+            text-align: center;
+        }
+    }
+}

@@ -1,12 +1,10 @@
 .principal{
-    border: 2px solid red;
     height: 80vh;
     display: flex;
     justify-content: center;
 }
 
 .container {
-    border: 2px solid  green;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -21,12 +19,32 @@
         align-items: center;
         justify-content: space-around;
         div {
-            border: 2px solid purple;
             width: 100%;
             display: flex;
             align-items: center;
             justify-content: space-around;
             color: #005695;
         }
+        input {
+            border: 2px solid #005695;
+            width: 22vw;
+            height: 5vh;
+            border-radius: 10px;
+            outline: none;
+            padding-left: 20px;
+            &::placeholder{
+                color: black;
+            }
+        }
+        .doar {
+            background-color: #005695;
+            color: white;
+            width: 10vw;
+            height: 6vh;
+            padding-left: 0;
+            font-size: 18px;
+        }
     }
 }
+
+

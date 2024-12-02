@@ -46,9 +46,62 @@ header {
         background-color: transparent;
         border: none;
         color: white;
+        width: 12vw;
         &::placeholder{
             color: white;
         }
     }
 }
 
+@media(max-width: 1171px){
+    .boxLogo {
+        width: 25vw;
+        h1{
+            font-size: 2vw;
+        }
+        img{
+            width: 5vw;
+        }
+    }
+    .BoxInput{
+        input{
+            &::placeholder{
+                font-size: 1.1px;
+            }
+        }
+    }
+    .boxMenu {
+        a {
+            font-size: 1.6vw;
+        }
+    }
+}
+
+@media(max-width: 780px) {
+    header {
+        flex-direction: column;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .boxInput{
+            display: none;
+        }
+        .boxLogo {
+            width: 80%;
+            h1 {
+                font-size: 25px;
+            }
+            img {
+                width: 80px;
+            }
+        }
+        .boxMenu {
+            width: 100%;
+            ul {
+                justify-content: space-evenly;
+                font-size: 22px;
+            }
+        }
+    }
+}
