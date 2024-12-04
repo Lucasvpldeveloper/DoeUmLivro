@@ -1,10 +1,10 @@
 footer {
-    height: 14.5vh;
+    height: 30vh;
 }
 
 .boxSocial {
     background-color: #005695;
-    height: 7vw;
+    height: 10vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,7 +12,7 @@ footer {
     padding-left: 50px;
     padding-right: 50px;
     nav {
-        width: 22vw;
+        width: 16vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -21,7 +21,7 @@ footer {
 
 .boxEnd {
     background-color: #232020;
-    height: 4vw;
+    height: 5vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,6 @@ footer {
 @media(max-width: 1000px) {
     .boxSocial {
         nav {
-            border: 2px solid red;
             width: 220px;
         }
     }
