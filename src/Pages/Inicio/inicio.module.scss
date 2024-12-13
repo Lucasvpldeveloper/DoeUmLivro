@@ -95,6 +95,12 @@
     }
 }
 
+@media(max-width: 1024px){
+    .boxCard{
+        flex-wrap: nowrap;
+    }
+}
+
 @media (max-width: 481px) {
     .devoDoar {
         height: 190vh;
