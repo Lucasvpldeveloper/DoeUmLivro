@@ -10,7 +10,8 @@ export default function Doados() {
     // Função assíncrona para buscar os livros na API
     const getLivros = async () => {
         try {
-            const response = await axios.get("https://teste-deploy-bkai.onrender.com/livros")
+        const urlApi = "https://projetoapi-ix8o.onrender.com" 
+            const response = await axios.get("")
             setLivros(response.data)
         } catch (error) {
             console.error("Erro ao buscar livros:", error)
